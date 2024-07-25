@@ -1,8 +1,8 @@
 circles=document.querySelectorAll(".circle")
 // console.log(circles);
 // console.log(circles[1])
-prevbutton=document.getElementById("prevbutton")
-nextbutton=document.getElementById("nextbutton")
+prevbutton=document.getElementById("prev")
+nextbutton=document.getElementById("next")
 idx=0
 circles[idx].classList.add('active')
 function updatebuttons(){
