@@ -4,6 +4,7 @@ circles=document.querySelectorAll(".circle")
 prevbutton=document.getElementById("prev")
 nextbutton=document.getElementById("next")
 idx=0
+prevbutton.disabled
 circles[idx].classList.add('active')
 function updatebuttons(){
 	if(idx==0)
