@@ -5,9 +5,11 @@ idx=0
 circles[idx].classList.add('active')
 function updatebuttons(){
 	if(idx==0)
-		prevbutton.disabled
+		prevbutton.disabled=true
+	else prevbutton.disabled=false
 	if(idx==4)
-		nextbutton.disabled
+		nextbutton.disabled=true
+	else nextbutton.disabled=false
 }
 
 nextbutton.addEventListener(("click"),()=>{
