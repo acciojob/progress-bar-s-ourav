@@ -15,7 +15,7 @@ function updatebuttons(){
 
 nextbutton.addEventListener(("click"),()=>{
 		if(idx<circles.length-1){
-			console.log("next")
+			// console.log("next")
 			idx++
 			circles[idx].classList.add('active')
 			updatebuttons()
@@ -23,7 +23,7 @@ nextbutton.addEventListener(("click"),()=>{
 })
 prevbutton.addEventListener(("click"),()=>{
 	if(idx>0){
-		console.log("prev")
+		// console.log("prev")
 		circles[idx].classList.remove('active')
 		idx--
 		updatebuttons()
