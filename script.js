@@ -3,6 +3,7 @@ prevbutton=document.getElementById("prev")
 nextbutton=document.getElementById("next")
 idx=0
 circles[idx].classList.add('active')
+updatebuttons()
 function updatebuttons(){
 	if(idx==0)
 		{prevbutton.disabled=true}
